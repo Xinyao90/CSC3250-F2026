@@ -2,6 +2,11 @@ public class GradeCalculator {
 
     public static double average(int[] scores) {
         // TODO
+        if (scores == null || scores.length == 0) {
+            throw new IllegalArgumentException(
+                    "Scores cannot be null or empty."
+            );
+        }
         return 0;
     }
 
