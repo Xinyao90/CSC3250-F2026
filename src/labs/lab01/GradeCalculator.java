@@ -1,3 +1,5 @@
+package labs.lab01;
+
 public class GradeCalculator {
 
     public static double average(int[] scores) {
