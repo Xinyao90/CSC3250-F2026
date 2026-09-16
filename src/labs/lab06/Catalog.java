@@ -38,4 +38,8 @@ public class Catalog {
 
         return null;
     }
+
+    public List<Product> getProducts() {
+        return Collections.unmodifiableList(products);
+    }
 }

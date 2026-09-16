@@ -55,6 +55,6 @@ public class ShoppingCart {
 
 
     public List<CartItem> getItems() {
-        return items;
+        return Collections.unmodifiableList(items);
     }
 }
