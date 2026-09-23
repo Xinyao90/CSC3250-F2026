@@ -1,6 +1,7 @@
 package labs.lab06;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ShoppingCart {
