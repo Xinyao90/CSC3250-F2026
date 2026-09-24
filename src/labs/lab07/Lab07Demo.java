@@ -1,26 +1,10 @@
 package labs.lab07;
+
 import java.util.List;
 
 public class Lab07Demo {
 
     public static void main(String[] args) {
-
-        /*
-         * TODO 1:
-         *
-         * Create:
-         *
-         * PhysicalProduct
-         *   id: P100
-         *   name: Notebook
-         *   price: 20.00
-         *
-         * DigitalProduct
-         *   id: D200
-         *   name: Java Guide
-         *   price: 15.00
-         *   file: guide.pdf
-         */
 
         Product notebook =
                 new PhysicalProduct(
@@ -37,14 +21,6 @@ public class Lab07Demo {
                         "guide.pdf"
                 );
 
-        /*
-         * Notice:
-         *
-         * The variables above have type Product,
-         * even though the actual objects are
-         * PhysicalProduct and DigitalProduct.
-         */
-
         List<Product> products =
                 List.of(notebook, guide);
 
@@ -53,26 +29,14 @@ public class Lab07Demo {
 
         for (Product product : products) {
 
-            /*
-             * TODO 2:
-             * Print:
-             *
-             * description()
-             * deliveryInstructions()
-             */
-
             System.out.println(product.description());
+
             System.out.println(
                     product.deliveryInstructions()
             );
 
             System.out.println();
         }
-
-        /*
-         * Existing CartItem code should work with
-         * BOTH subclasses without modification.
-         */
 
         CartItem notebookItem =
                 new CartItem(notebook, 2);
