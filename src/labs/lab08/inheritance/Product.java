@@ -1,4 +1,4 @@
-package lab08.inheritance;
+package labs.lab08.inheritance;
 
 public abstract class Product {
     private final String id;

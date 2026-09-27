@@ -1,4 +1,4 @@
-package lab08.inheritance;
+package labs.lab08.inheritance;
 
 public class CartItem {
     private final Product product;

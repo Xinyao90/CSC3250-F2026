@@ -1,4 +1,4 @@
-package lab08.composition;
+package labs.lab08.composition;
 
 import java.util.Objects;
 

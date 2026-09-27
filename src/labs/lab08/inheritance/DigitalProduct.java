@@ -1,4 +1,4 @@
-package lab08.inheritance;
+package labs.lab08.inheritance;
 
 public class DigitalProduct extends Product {
     private final String downloadFile;

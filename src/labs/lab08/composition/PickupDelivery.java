@@ -1,4 +1,4 @@
-package lab08.composition;
+package labs.lab08.composition;
 
 public class PickupDelivery extends DeliveryMethod {
     private final String location;

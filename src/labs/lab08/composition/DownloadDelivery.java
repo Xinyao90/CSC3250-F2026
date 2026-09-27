@@ -1,4 +1,4 @@
-package lab08.composition;
+package labs.lab08.composition;
 
 public class DownloadDelivery extends DeliveryMethod {
     private final String downloadFile;
