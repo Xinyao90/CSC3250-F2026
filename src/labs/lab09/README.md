@@ -28,6 +28,6 @@ There is one instruction line per CartItem, not one per unit. The physical/digit
 ## Run and submit
 Open this folder's pom.xml in IntelliJ; use JDK 17+. Run `lab09.Demo`, then the full public `Lab09Test` class. Optional complete transfer demo: `lab09.compositiondemo.CompositionTransferDemo`.
 
-Commit source, tests, UML sketch, and reflection to lab09. Brightspace: direct GitHub lab09 folder link and one screenshot showing the full passing JUnit run. No Git terminal screenshot is required.
+Brightspace Submission: UML inheritance design sketch, direct GitHub lab09 folder link and one screenshot showing the full passing JUnit run. No Git terminal screenshot is required.
 
 Reflection: Which classes changed? Which processing/arithmetic methods stayed the same? Trace the workshop call through a Product reference. Why does the composition-based alternative still use polymorphism?
