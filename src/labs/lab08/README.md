@@ -75,5 +75,5 @@ Commit the `lab08` project to your CSC3250 course repository. Submit:
 - GitHub repository link
 - one screenshot showing all JUnit tests passing
 - one screenshot showing `Lab08Demo` output
-- Git commit/push evidence
-- your UML sketch and short comparison answers
+- UML sketch for composition implementation
+- Short comparison answers -- Compare the inheritance-based and composition-based designs in terms of where delivery behavior varies, how the delivery choice is selected, where coupling occurs, and the tradeoffs of each approach. Do not base your comparison only on the printed program output.
