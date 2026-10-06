@@ -24,8 +24,7 @@ class Lab10Test {
     }
 
     @Test
-    void candidateDigitalPassesCommonContract() {
-        assertContract(guide());
+    void candidateDigitalPassesCommonContract() { assertContract(guide());
     }
 
     @Test

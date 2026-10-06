@@ -1,0 +1,7 @@
+Regular product purchase price: 100.00
+Discounted product original price: 80.00
+Discount rate: 25%
+Discounted product purchase price: 60.00
+Service fee: 5.00
+Mixed total: 165.00
+Original price after calculation: 80.00
