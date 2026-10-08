@@ -43,9 +43,3 @@ On Windows, use `py` or `python` instead of `python3` and quote paths containing
 ## Submission
 
 Commit `src/labs/lab11`, `test/labs/lab11`, and the design evidence described in the handout. Keep the UML/comparison and reflection in the source lab folder so they are reachable from its link. Brightspace receives **the direct GitHub lab-folder link and one passing IntelliJ/JUnit screenshot**. No terminal screenshot is required.
-
-## Lecture alignment
-
-Lecture 11 slides 28–32 contain the lab launch, three checkpoints, and submission. The sample cart retains Notebook, Java Guide, and Java Workshop with subtotal 115.00. Receipt output is the new requirement, not a reclassification of the previous checkout as defective. The interface and formatter are supplied.
-
-`REFERENCES.md` retains the reference list supplied with the lecture package. Exact lab contracts are in the Java comments and handout.
