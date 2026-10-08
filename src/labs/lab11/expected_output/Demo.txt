@@ -1,0 +1,5 @@
+Notebook -> Ship to address
+Java Guide -> Download guide.pdf
+Java Workshop -> Attend in Room A
+Subtotal: 115.00
+Recorded receipts: 1

@@ -12,5 +12,6 @@ public class CandidateDigitalProduct extends Product {
     @Override public String deliveryInstructions() {
         // TODO 1: State the weakened promise, then repair this return value.
         return null;
+//        return "Download " + downloadFile;
     }
 }
