@@ -30,12 +30,6 @@ Run `Hw2PublicTest` in IntelliJ with the course JUnit 5 setup. The goal is 21 pa
 The starter compiles but intentionally fails until the TODOs are complete.
 The instructor uses the same public checks, not hidden functional tests.
 
-Optional command-line check (same assertions, no JUnit download), from repository root:
-
-macOS/Linux: `bash homework/hw02/run_checks.sh`
-
-Windows: `.\homework\hw02\run_checks.cmd`
-
 The existing check weights total 80 RAW test points. Your HW2 Code score is
 `raw subtotal x 0.75`, out of 60. The runner displays both; do not use the percentage
 of green tests because the checks have different weights.
