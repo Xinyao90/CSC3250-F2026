@@ -1,0 +1,7 @@
+Notebook -> Ship to address
+Java Guide -> Download guide.pdf
+Java Workshop -> Attend in Room A
+Catalog unit-price sum: 65.00
+Cart subtotal (with quantities): 115.00
+Old snapshot: A
+New traversal: A B

@@ -1,0 +1,9 @@
+// Discussion-only snippets, not a compilable source file.
+// Do not rename to .java or place in src: some lines deliberately fail compilation.
+ItemCatalog<String> names = new ItemCatalog<>();
+names.add(42);                         // does not compile: Integer is not String
+ItemCatalog<int> counts;               // does not compile: use Integer
+List<DigitalProduct> guides = new ArrayList<>();
+List<Product> products = guides;       // does not compile: invariant type arguments
+Iterable<? extends Product> readable = guides; // compiles
+// CatalogReports.totalUnitPrice(names); // does not compile: String does not extend Product

@@ -21,6 +21,11 @@ public class PriceCalculator {
         // TODO 3: Start a local sum, visit each item, ask the item for its
         // purchase price, add that value, and return the completed sum.
         // Hint: T is a type that promises the Priceable operation.
-        throw new UnsupportedOperationException("TODO: total the purchase prices");
+        double sum = 0.0;
+        for (T item: items) {
+            sum += item.getPurchasePrice();
+        }
+        return sum;
+//        throw new UnsupportedOperationException("TODO: total the purchase prices");
     }
 }

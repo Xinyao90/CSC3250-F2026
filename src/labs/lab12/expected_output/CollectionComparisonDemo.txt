@@ -1,0 +1,3 @@
+ArrayList: [A, A, B], size=3
+LinkedHashSet: [A, B], size=2
+ItemCatalog: A A B, size=3
