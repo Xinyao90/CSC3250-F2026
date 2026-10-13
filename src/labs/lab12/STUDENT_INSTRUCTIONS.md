@@ -104,7 +104,7 @@ Explain what T connects in the generic class and what the Product bound makes av
 
 ### Completion and submission
 
-Commit lab12 source, unchanged public tests, the comparison, and REFLECTION.md. Submit the direct lab12 GitHub folder link and one passing IntelliJ/JUnit screenshot in Brightspace. A new UML diagram and a terminal Git screenshot are not required.
+Commit lab12 source, unchanged public tests, the comparison. Submit the direct lab12 GitHub folder link and one passing IntelliJ/JUnit screenshot in Brightspace. A new UML diagram and a terminal Git screenshot are not required.
 
 Optional early finish: compare the required snapshot iterator with an iterator over an unmodifiable live view. Explain the different behavior after a later append and the allocation tradeoff. Keep the required snapshot implementation and public tests unchanged.
 
