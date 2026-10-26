@@ -1,4 +1,4 @@
-# Lab 22 — Weather Station (pull)
+# Lab 16 — Weather Station (pull)
 
 Compile this project separately from the other version. Both use the same class names with different callback contracts.
 

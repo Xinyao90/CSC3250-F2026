@@ -1,4 +1,4 @@
-# Lab 21 — Observer registry and lifecycle
+# Lab 15 — Observer registry and lifecycle
 
 Complete registerObserver, removeObserver, and notifyObservers in WeatherData. The sample-setting path and RecordingObserver are supplied.
 

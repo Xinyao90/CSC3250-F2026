@@ -1,4 +1,4 @@
-# Lab 19 — Behavior families
+# Lab 13 — Behavior families
 
 Implement the five TODO methods without changing the supplied interfaces. This project intentionally has no Duck class yet.
 

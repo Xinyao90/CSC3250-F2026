@@ -1,4 +1,4 @@
-# Lab 20 — SimUDuck Strategy integration
+# Lab 14 — SimUDuck Strategy integration
 
 Use the supplied completed behavior classes. Complete only the TODO methods and constructors.
 
