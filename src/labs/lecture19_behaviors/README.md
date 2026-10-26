@@ -5,7 +5,10 @@ Implement the five TODO methods without changing the supplied interfaces. This p
 1. Complete FlyWithWings and FlyNoWay; run their behavior through FlyBehavior references.
 2. Complete Quack, Squeak, and MuteQuack.
 3. Run the visible checks and trace the reference-reassignment example.
-4. Draw two interface boxes and realization arrows from their implementations. Submit the code, console evidence, UML, and a short reference explanation.
+4. Draw two interface boxes and realization arrows from their implementations. 
+
+BrightSpace Submission:
+Submit the code, console evidence, UML, and a short reference explanation.
 
 Inside `starter`: `javac *.java`, then `java BehaviorDemo` and `java BehaviorChecks`.
 
