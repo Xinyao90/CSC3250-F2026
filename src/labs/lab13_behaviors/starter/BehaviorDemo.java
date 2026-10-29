@@ -8,6 +8,7 @@ public class BehaviorDemo {
         QuackBehavior[] sounds = {new Quack(), new Squeak(), new MuteQuack()};
         for (QuackBehavior sound : sounds) sound.quack();
         System.out.println("-- Reference reassignment --");
+
         FlyBehavior first = new FlyWithWings();
         FlyBehavior second = first;
         second = new FlyNoWay();
