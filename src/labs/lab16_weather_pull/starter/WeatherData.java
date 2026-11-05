@@ -1,0 +1,29 @@
+// CSC-3250 classroom adaptation of the SimUDuck / Weather-O-Rama examples.
+// Conceptual source: Freeman & Robson, Head First Design Patterns, 2nd ed.
+// Original classroom scaffolding and visible checks; no external libraries required.
+import java.util.ArrayList;
+import java.util.List;
+
+public class WeatherData implements Subject {
+    private final List<Observer> observers;
+    private float temperature, humidity, pressure;
+    public WeatherData() { observers = new ArrayList<>(); }
+    public void registerObserver(Observer observer) { observers.add(observer); }
+    public void removeObserver(Observer observer) { observers.remove(observer); }
+    public void notifyObservers() {
+        for (Observer observer : observers) {
+            // TODO: invoke the no-argument callback
+        throw new UnsupportedOperationException("TODO: invoke the no-argument callback");
+        }
+    }
+    public void setMeasurements(float t, float h, float p) {
+        temperature = t;
+        humidity = h;
+        pressure = p;
+        measurementsChanged();
+    }
+    public void measurementsChanged() { notifyObservers(); }
+    public float getTemperature() { return temperature; }
+    public float getHumidity() { return humidity; }
+    public float getPressure() { return pressure; }
+}
